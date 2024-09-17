@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../../assets/bs-icon.png'
+import icon from '../assets/nba-icon.png'
 
 const Header = () => {
   return (
@@ -8,10 +8,10 @@ const Header = () => {
         <div>
           <img src={icon} alt="icon" className='w-20 hidden sm:block'/>
         </div>
-        <h2 className='text-2xl sm:text-4xl font-bold font-lilita'>Brawl Stars Connections</h2>
+        <h2 className='text-2xl sm:text-4xl font-bold font-lilita'>NBA Connections</h2>
       </div>
       <div>
-        <button className='bg-black text-white rounded-sm px-8 py-1 sm:py-2 leading-5'>New Game</button>
+        <button className='bg-black text-white rounded px-8 py-1 sm:py-2 leading-5 text-xs font-semibold'>NEW GAME</button>
       </div>
     </header>
   )
